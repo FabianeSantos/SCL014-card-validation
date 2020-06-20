@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1592670110130" clover="3.2.0">
-  <project timestamp="1592670110131" name="All files">
+<coverage generated="1592690879773" clover="3.2.0">
+  <project timestamp="1592690879774" name="All files">
     <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10" elements="34" coveredelements="34" complexity="0" loc="22" ncloc="22" packages="1" files="1" classes="1"/>
     <file name="validator.js" path="/Users/maurojimenez/Documents/GIT-HUB/SCL014-card-validation/src/validator.js">
       <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
