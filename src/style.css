@@ -1,87 +1,21 @@
-html, body {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #666666;
-  background-color: lightblue;
+*{
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 
-.welcome {
-  display: block;
+div.generalTodo {
+  margin: 4px 1%;
+  width: 95%;
+  background-color:#FFFFCC; /* es para darle el color a la caja de fondo*/
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 10px 1px 10px 0px grey;
 }
 
-h1 {
-  color: #09427A;
-  text-shadow: -1px 0 lightpink, 0 1px lightpink, 1px 0 lightpink,
-    0 -1px lightpink;
-}
-
-#mensajeError {
-  margin-top: -40px;
-  color: red;
-}
-
-.step-validation {
-  display: none;
-}
-
-.validation-msg {
-  margin-top: 5rem;
-}
-
-.centrado {
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  transform: translate(-80%, -80%);
-  font-family: helvetica;
+p {
   font-size: 15px;
   font-weight: 300;
-  color: #09427a;
-  background: rgb(243, 208, 143);
-  margin: 0 0 25px;
-  overflow: hidden;
-  padding: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  border-radius: 15px;
-  border-color: #09427a;
-}
-
-.btn {
-  position: absolute;
-  margin-left: -450px;
-  margin-top: 170px;
-
-  text-decoration: none;
-  padding: 2px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-family: sans-serif;
-  font-weight: 150;
-  font-size: 25px;
-  font-style: unset;
-  color: #fff;
-  background-color: #09427a;
-  border-radius: 15px;
-}
-
-.btn-validate{
-  margin-left: -450px;
-  margin-top: 170px;
-}
-
-.btn-back{
-  margin-left: -350px;
-  margin-top: 60px;
-}
-
-.btn-close{
-  margin-left: 200px;
-  margin-top: 60px;
+  color:gray;
+  text-align: center; 
 }
 
 .validation-status {
@@ -92,26 +26,159 @@ h1 {
 }
 
 .valid-result{
-color: green;
-}
-
-.invalid-result{
-  color: red;
-}
-
+  color: green;
+  }
+  
+  .invalid-result{
+    color: red;
+  }
+  
 .card-logo{
-height: 150px;
-width: 200px;
-}
-
-footer {
-  height: 50px;
+  /* position: relative;
+  top: 0%; /* movimiento de la imagen para arriba o para abajo mas % es para abajo  menos % es para arrba*/
+  left: 0%;
+  height: 100px;
   line-height: 50px;
-  border-top: 1.5px solid #706e6eaf;  
-  background-color: #C4C5C7;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
+  width: 100px;
+  }
+
+  html, body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    background-color:	#B0E0E6;
+    margin: 2;
+    padding: 0;
+  }
+
+  .welcome {
+    display: block;
+  }
+
+  h2 {
+    color: #09427A;
+    text-shadow: -1px 0 lightpink, 0 1px lightpink, 1px 0 lightpink,
+      0 -1px lightpink;
+  }
+  .step-validation {
+    display: none;
+  }
+  
+  .validation-msg {
+    margin-top: 5rem;
+  }
+  .tarjeta {
+   position: relative;
+   left: 5%;
+  }
+
+  .centrado {
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 53%;
+    right: 60%;
+    transform: translate(-80%, -80%);
+    font-family: helvetica;
+    font-size: 15px;
+    font-weight: 300;
+    color: #09427a;
+    text-align: center;
+    background: #FFFFF0;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    border-color: #09427a;
+  }
+  
+  ::placeholder {
+    color: goldenrod; /*Se aplica específicamente al texto del placeholder */
+    font-size: 1em; /*Tamaño de la fuente */
+    font-style: italic; /*tipo de fuente o letra*/
+  }
+  .btnValidar {
+    position: absolute;
+    top: 50%; /* movimiento de la imagen para arriba o para abajo mas % es para abajo  menos % es para arrba*/
+    left: 75%;
+    margin-left: -450px;
+    margin-top: 170px;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    font-weight: 50;
+    font-size: 15px;
+    font-style: unset;
+    color: goldenrod;
+    background-color: #FFFFF0;
+    border-radius: 20px;
+    border-color: #09427a
+  }
+  
+  .btnInicio {
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    left: 35%;
+    right: 60%;;
+    transform: translate(-80%, -80%);
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: sans-serif;
+    font-weight: 50;
+    font-size: 15px;
+    font-style: unset;
+    color:goldenrod;
+    background-color: #FFFFF0;
+    border-radius: 20px;
+    border-color: #09427a
+  }
+  
+  .btnCerrar {
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    left: 65%;
+    right: 60%;;
+    transform: translate(-80%, -80%);
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: sans-serif;
+    font-weight: 50;
+    font-size: 15px;
+    font-style: unset;
+    color:goldenrod;
+    background-color: #FFFFF0;
+    border-radius: 20px;
+    border-color: #09427a
+  }
+
+  .validation-status {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: 'Fredoka One', cursive;
+  }
+
+  h4 {
+    position: relative;
+    z-index: 1;
+    top: 60%;
+    left: 79%;
+    right: 40%;
+    transform: translate(-80%, -80%);
+    color: red;
+    width: 90%;
+   }
+
+   footer {
+    color: goldenrod;
+  } 
