@@ -44,6 +44,7 @@ btnValidation.addEventListener("click", () => {
     } else {
       resultadoFinal.innerHTML = `
         <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
+        <img src="./img/check-rojo.png" alt="invalido"class="card-logo">
         <h1 class="validation-status invalid-result">INVALIDA</h1>
         `
     }
@@ -62,6 +63,7 @@ btnValidation.addEventListener("click", () => {
     } else {
       resultadoFinal.innerHTML = `
         <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
+        <img src="./img/check-rojo.png" alt="invalido"class="card-logo">
         <h1 class="validation-status invalid-result">INVALIDA</h1>
         `
     }
@@ -79,6 +81,7 @@ btnValidation.addEventListener("click", () => {
     } else {
       resultadoFinal.innerHTML = `
         <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
+        <img src="./img/check-rojo.png" alt="invalido"class="card-logo">
         <h1 class="validation-status invalid-result">INVALIDA</h1>
         `
     }
@@ -86,6 +89,7 @@ btnValidation.addEventListener("click", () => {
     move("welcome", "validationResult");
     resultadoFinal.innerHTML = `
     <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
+    <img src="./img/check-rojo.png" alt="invalido"class="card-logo">
     <h1 class="validation-status invalid-result">INVALIDA</h1>
     `
   } else {

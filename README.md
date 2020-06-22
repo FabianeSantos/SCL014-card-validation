@@ -1,9 +1,7 @@
-# ¡LLAMEYA! 
-## Credit Car Validator
+![Logo](./src/img/llameya-logo.png)
 
 
-
-[link para proyecto en gh-pages/Fabiane](https://fabianesantos.github.io/SCL014-card-validation/src/index.html)
+[Link para proyecto en gh-pages/Fabiane](https://fabianesantos.github.io/SCL014-card-validation/src/index.html)
 
 ## Resumen:
 
@@ -15,11 +13,16 @@ Somos del departamento de desarrollo de tecnologia de la empresa **¡LLAMEYA!**
 
 Unos de los canales de venta con mayor ganancia, es hecho via telemarketing.
 
-Fue solicitado a nuestro departamento crear un software donde los responsables por las televentas, puedan conferir si los numeros de las tarjetas que son solicitados para concretar la venta, son validos, antes de finalizar la compra del cliente.
+Fue solicitado la creación de un software donde los responsables por las televentas, puedan conferir si los numeros de las tarjetas que son solicitados para concretar la venta, son validos, antes de finalizar la compra del cliente.
 
 Con eso, el proceso será optimizado. Dónde se podrá constatar si los datos de la tarjeta están correctos, antes de finalizar la compra.
 
-![foto del proyecto finalizado](./src/img/card-validation.png)
+![foto del proyecto finalizado](./src/img/primera-pantalla.png)
+
+![foto del proyecto finalizado](./src/img/valida.png)
+
+![foto del proyecto finalizado](./src/img/invalida.png)
+
 
 ## Investigación UX:
 
@@ -48,7 +51,7 @@ Partimos a dibujar en el app INVISION, donde fue posible mejorar algunos puntos 
 ![prototipo-baja-fidelidad](./src/img/prototipo-baja-fidelidad.png)
 
 
-[click para ver el prototipo de alta fidelidad ](https://fabiane291316.invisionapp.com/public/share/QS17P0XYWY#screens/478820722)
+[lick para ver el prototipo de alta fidelidad ](https://fabiane291316.invisionapp.com/public/share/QS17P0XYWY#screens/478820722)
 
 Después de finalizado, el **Validador de Tajetas**, será utizado en una interface para desktop, de fácil manipulación, y además tendrá un "script", dónde la persona responsable por la venta comunicará al cliente.
 
@@ -101,5 +104,6 @@ Después de finalizado, el **Validador de Tajetas**, será utizado en una interf
 ## Autor@s:
 
   [Fabiane Santos](https://github.com/FabianeSantos?tab=repositories)
+  
   
   [Francis Martinez](https://github.com/Fran2325)
