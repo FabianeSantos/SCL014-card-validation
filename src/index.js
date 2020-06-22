@@ -36,16 +36,27 @@ btnValidation.addEventListener("click", () => {
     resultado = validator.isValid(creditCardNumber);
     if (resultado) {
       resultadoFinal.innerHTML = `
-        <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
-        <h1>Marca: ${cardFlag} </h1>
+        <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+        <br>
+        <h2>Marca: ${cardFlag} </h2>
+        <br>
         <img src="./img/american-express.jpg" alt="American Express" class="card-logo">
-        <h1 class="validation-status valid-result">VALIDA</h1>
+        <br>
+        <h2 class="validation-status valid-result">VALIDA</h2>
         `
     } else {
       resultadoFinal.innerHTML = `
+<<<<<<< HEAD
         <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
         <img src="./img/check-rojo.png" alt="invalido"class="card-logo">
         <h1 class="validation-status invalid-result">INVALIDA</h1>
+=======
+        <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+        <br>
+        <img src="./img/check-rojo.webp" alt="check-rojo" class="card-logo">
+        <br>
+        <h2 class="validation-status invalid-result">INVALIDA</h2>
+>>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
         `
     }
 
@@ -55,16 +66,27 @@ btnValidation.addEventListener("click", () => {
     resultado = validator.isValid(creditCardNumber);
     if (resultado) {
       resultadoFinal.innerHTML = `
-        <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
-        <h1>Marca: ${cardFlag} </h1>
+        <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+        <br>
+        <h2>Marca: ${cardFlag} </h2>
+        <br>
         <img src="./img/visa-logo.svg.png" alt="Visa" class="card-logo">
-        <h1 class="validation-status valid-result">VALIDA</h1>
+        <br>
+        <h2 class="validation-status valid-result">VALIDA</h2>
         `
     } else {
       resultadoFinal.innerHTML = `
+<<<<<<< HEAD
         <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
         <img src="./img/check-rojo.png" alt="invalido"class="card-logo">
         <h1 class="validation-status invalid-result">INVALIDA</h1>
+=======
+        <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+        <br>
+        <img src="./img/check-rojo.webp" alt="check-rojo" class="card-logo">
+        <br>
+        <h2 class="validation-status invalid-result">INVALIDA</h2>
+>>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
         `
     }
   } else if (numero && firstNumber === 5) {
@@ -73,24 +95,43 @@ btnValidation.addEventListener("click", () => {
     resultado = validator.isValid(creditCardNumber);
     if (resultado) {
       resultadoFinal.innerHTML = `
-        <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
-        <h1>Marca: ${cardFlag} </h1>
+        <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+        <br>
+        <h2>Marca: ${cardFlag} </h2>
+        <br>
         <img src="./img/mastercard-logo.png" alt="Mastercard" class="card-logo">
-        <h1 class="validation-status valid-result">VALIDA</h1>
+        <br>
+        <h2 class="validation-status valid-result">VALIDA</h2>
         `
     } else {
       resultadoFinal.innerHTML = `
+<<<<<<< HEAD
         <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
         <img src="./img/check-rojo.png" alt="invalido"class="card-logo">
         <h1 class="validation-status invalid-result">INVALIDA</h1>
+=======
+        <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+        <br>
+        <img src="./img/check-rojo.webp" alt="check-rojo" class="card-logo">
+        <br>
+        <h2 class="validation-status invalid-result">INVALIDA</h2>
+>>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
         `
     }
   } else if (numero && firstNumber !== (3, 4, 5)) {
     move("welcome", "validationResult");
     resultadoFinal.innerHTML = `
+<<<<<<< HEAD
     <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
     <img src="./img/check-rojo.png" alt="invalido"class="card-logo">
     <h1 class="validation-status invalid-result">INVALIDA</h1>
+=======
+    <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+    <br>
+    <img src="./img/check-rojo.webp" alt="check-rojo" class="card-logo">
+    <br>
+    <h2 class="validation-status invalid-result">INVALIDA</h2>
+>>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
     `
   } else {
     // si false, imprime un mensaje pde error
