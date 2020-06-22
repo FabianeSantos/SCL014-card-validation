@@ -1,16 +1,9 @@
-<<<<<<< HEAD
-![Logo](./src/img/llameya-logo.png)
-
-
-[Link para proyecto en gh-pages/Fabiane](https://fabianesantos.github.io/SCL014-card-validation/src/index.html)
-=======
 ![¡logo llame Ya!](./src/img/llameya-logo.png)
 
 
 [link para proyecto en gh-pages](https://fran2325.github.io/SCL014-card-validation/src/index.html)
 
 [link para proyecto en gh-pages/Fabiane](https://fabianesantos.github.io/SCL014-card-validation/src/index.html)
->>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
 
 ## Resumen:
 
@@ -22,22 +15,10 @@ Somos del departamento de desarrollo de tecnologia de la empresa **¡LLAMEYA!**
 
 Unos de los canales de venta con mayor ganancia, es hecho via telemarketing.
 
-<<<<<<< HEAD
-Fue solicitado la creación de un software donde los responsables por las televentas, puedan conferir si los numeros de las tarjetas que son solicitados para concretar la venta, son validos, antes de finalizar la compra del cliente.
-=======
 Como departamento de tecnologia nos solicitaron, crear un software donde los responsables de televentas, puedan verificar si los numeros de las TDC son validos, antes de finalizar la compra del cliente.
->>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
 
 Gracias a este sistema se optimizara el tiempo, antes de finalizar la compra.
 
-<<<<<<< HEAD
-![foto del proyecto finalizado](./src/img/primera-pantalla.png)
-
-![foto del proyecto finalizado](./src/img/valida.png)
-
-![foto del proyecto finalizado](./src/img/invalida.png)
-
-=======
 ![PAntalla Inicio](./src/img/pantalla-inicio.png)
 
 ![Mensaje Error](./src/img/mensage-error.png)
@@ -45,7 +26,6 @@ Gracias a este sistema se optimizara el tiempo, antes de finalizar la compra.
 ![Pantalla Valida](./src/img/valida.png)
 
 ![Pantalla Invalida](./src/img/invalida.png)
->>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
 
 ## Investigación UX:
 
@@ -72,11 +52,7 @@ Partimos a dibujar en el app INVISION, donde fue posible mejorar algunos puntos 
 ![prototipo-baja-fidelidad](./src/img/prototipo-baja-fidelidad.png)
 
 
-<<<<<<< HEAD
-[lick para ver el prototipo de alta fidelidad ](https://fabiane291316.invisionapp.com/public/share/QS17P0XYWY#screens/478820722)
-=======
 [Click para ver el prototipo de alta fidelidad ](https://fabiane291316.invisionapp.com/public/share/QS17P0XYWY#screens/478820722)
->>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
 
 Después de finalizado, el **Validador de Tajetas**, será utizado en una interface para desktop, de fácil manipulación, y además tendrá un "script", dónde la persona responsable por la venta comunicará al cliente.
 
