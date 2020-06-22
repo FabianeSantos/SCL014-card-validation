@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1592690879773" clover="3.2.0">
-  <project timestamp="1592690879774" name="All files">
-    <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10" elements="34" coveredelements="34" complexity="0" loc="22" ncloc="22" packages="1" files="1" classes="1"/>
+<coverage generated="1592852578700" clover="3.2.0">
+  <project timestamp="1592852578700" name="All files">
+    <metrics statements="25" coveredstatements="25" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10" elements="37" coveredelements="37" complexity="0" loc="25" ncloc="25" packages="1" files="1" classes="1"/>
     <file name="validator.js" path="/Users/maurojimenez/Documents/GIT-HUB/SCL014-card-validation/src/validator.js">
-      <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
+      <metrics statements="25" coveredstatements="25" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
       <line num="1" count="1" type="stmt"/>
       <line num="4" count="2" type="stmt"/>
       <line num="8" count="2" type="stmt"/>
@@ -24,8 +24,11 @@
       <line num="53" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="54" count="1" type="stmt"/>
       <line num="56" count="1" type="stmt"/>
+      <line num="63" count="1" type="stmt"/>
       <line num="64" count="1" type="stmt"/>
       <line num="65" count="1" type="stmt"/>
+      <line num="66" count="1" type="stmt"/>
+      <line num="67" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

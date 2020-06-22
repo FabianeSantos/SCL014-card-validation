@@ -47,7 +47,7 @@ elementos del 1ª array. Los recoje y almacena en nuevo array(impares).*/
     const finaResult = concat_Impares_Pares.reduce(
       (valorAnterior, valorActual) => valorAnterior + valorActual
     );
-   
+
 
     // condicional, donde si es verdadera retorna true, si falsa, retorna false.
     if (finaResult % 10 === 0) {
@@ -59,11 +59,14 @@ elementos del 1ª array. Los recoje y almacena en nuevo array(impares).*/
 
   //metodo para ocultar numero .
   maskify: creditCardNumber => {
-    
- // INDICA CANTIDAD DE DIGITOS DISPONIBLES PARA SE MARCADO POR EL # Y ADEMAS SEÑALA CON QUE CARACTER OCULTAR LOS DIGITO
- var maskify = creditCardNumber.replace(/.(?=.{4,}$)/g, '#');
-  return maskify;
-}
+
+    for (let i = 0; i <= creditCardNumber.length; i++) {
+      let numbersFirst = creditCardNumber.slice(0, 12);
+      let numberslast = creditCardNumber.slice(-4);
+      numbersFirst = '############';
+      return numbersFirst + numberslast;
+    }
+  }
 };
 
 export default validator;
