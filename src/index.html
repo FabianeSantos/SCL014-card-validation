@@ -8,65 +8,60 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <header>
-    <!-- primera pantalla -->
-    <div id="welcome" class="welcome">
-      <br>
-      <!-- titulo -->
-      <!-- <h1>¡LLAMEYA!</h1>
-      <h1>Validador de Tarjetas de Credito</h1> -->
-      <img src="./img/llameya-logo.png" alt="¡Llameya!">
-      <!-- texto para el usuario -->
-      <p style="margin-top: -10px">
-        Estimado cliente, por su seguridad y antes de hacer el envío de su
-        producto, 
-      </p>
-      <p>validaremos que su <strong> tarjeta de credito</strong> esta correcta.</p>
-      <!-- imagen de fondo -->
-      <img src="./img/background-card.png" style="margin-top: -30px" alt="imagen tarjeta feliz" />
+  <div class="generalTodo">
+    <header>
+      <!-- primera pantalla -->
+      <div id="welcome" class="welcome">
+        <img src="./img/llameya-logo.png" alt="¡Llameya!">
+        <!-- texto para el usuario -->
+        <p style="margin-top: 10px">
+          Estimado cliente, por su seguridad y antes de hacer el envío de su
+          producto,
+        </p>
+        <p></p>validaremos que su <strong> tarjeta de credito</strong> esta correcta.</p>
+        <!-- imagen de fondo -->
+        <div class="tarjeta">
+          <img src="./img/background-card.png" width="650" alt="imagen tarjeta feliz" />
+        </div>
 
-      <!-- input que recíbe los datos de la tarjeta -->
-      <input type="text" id="creditCardNumber" style="margin-top: 50px; margin-left: -15px" class="centrado" placeholder="Numero de su tarjeta" />
+        <!-- input que recíbe los datos de la tarjeta -->
+        <input type="text" id="creditCardNumber" class="centrado" placeholder="Numero de su tarjeta" />
 
 
-     
-  
+        <!-- mensaje de error cuando el numero no corresponde al especificado en javascript -->
+        <h4 id="mensajeError"></h4>
 
-      <!-- botón para validar los digitos de la tarjeta-->
-      <button id="btnValidation" class="btn btn-validate">VALIDAR</button>
-<!-- mensaje de error cuando el numero no corresponde al especificado en javascript -->
-      <h4 id="mensajeError"></h4>
-      
+        <!-- botón para validar los digitos de la tarjeta-->
+        <button id="btnValidation" class="btnValidar">VALIDAR</button>
+      </div>
+    </header>
 
-    </div>
-  </header>
+    <main>
+      <!--pantalla del resultado  -->
+      <div id="validationResult" class="step-validation">
+        <br><br><br>
+        <!--mensagem que muestra el analisis del algoritmo de luhn, marca -->
+        <div id="showResult" class="validation-msg"></div>
+        <br>
+        <br><br><br>
+        <!-- botón para volver a la pantalla de inicio-->
+        <button id="btnIniciar" class="btnInicio">INICIO</button>
+        <br><br><br>
+        <!-- botón para cerrar y salir del validador-->
+        <button id="btnCerrar" class="btnCerrar">CERRAR</button>
+      </div>
+    </main>
 
-  <main>
-    <!--pantalla del resultado  -->
-    <div id="validationResult" class="step-validation">
-  
-      <!--mensagem que muestra el analisis del algoritmo de luhn, marca -->
-      <div id="showResult" class="validation-msg"></div>
-   
-
-      <!-- botón para volver a la pantalla de inicio-->
-      <button id="btnIniciar" class="btn btn-back">INICIO</button>
-  
-      <!-- botón para cerrar y salir del validador-->
-      <button id="btnCerrar" class="btn btn-close">CERRAR</button>
-    </div>
-  </main>
-  <br /><br />
-  <footer>
-    <div>
+    <footer>
       <!--texto sobre los creadores del validador-->
       &copy;2020 Desarrollado por Fabiane Santos y Francis Martinez
-    </div>
-  </footer>
-  <script src="index.js" type="module"></script>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </div>
 </body>
 
 </html>
