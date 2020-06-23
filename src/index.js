@@ -46,17 +46,11 @@ btnValidation.addEventListener("click", () => {
         `
     } else {
       resultadoFinal.innerHTML = `
-<<<<<<< HEAD
-        <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
-        <img src="./img/check-rojo.png" alt="invalido"class="card-logo">
-        <h1 class="validation-status invalid-result">INVALIDA</h1>
-=======
         <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
         <br>
         <img src="./img/check-rojo.webp" alt="check-rojo" class="card-logo">
         <br>
         <h2 class="validation-status invalid-result">INVALIDA</h2>
->>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
         `
     }
 
@@ -76,17 +70,11 @@ btnValidation.addEventListener("click", () => {
         `
     } else {
       resultadoFinal.innerHTML = `
-<<<<<<< HEAD
-        <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
-        <img src="./img/check-rojo.png" alt="invalido"class="card-logo">
-        <h1 class="validation-status invalid-result">INVALIDA</h1>
-=======
         <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
         <br>
         <img src="./img/check-rojo.webp" alt="check-rojo" class="card-logo">
         <br>
         <h2 class="validation-status invalid-result">INVALIDA</h2>
->>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
         `
     }
   } else if (numero && firstNumber === 5) {
@@ -105,33 +93,21 @@ btnValidation.addEventListener("click", () => {
         `
     } else {
       resultadoFinal.innerHTML = `
-<<<<<<< HEAD
-        <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
-        <img src="./img/check-rojo.png" alt="invalido"class="card-logo">
-        <h1 class="validation-status invalid-result">INVALIDA</h1>
-=======
         <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
         <br>
         <img src="./img/check-rojo.webp" alt="check-rojo" class="card-logo">
         <br>
         <h2 class="validation-status invalid-result">INVALIDA</h2>
->>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
         `
     }
   } else if (numero && firstNumber !== (3, 4, 5)) {
     move("welcome", "validationResult");
     resultadoFinal.innerHTML = `
-<<<<<<< HEAD
-    <h1>La tarjeta: ${validator.maskify(creditCardNumber)} </h1>
-    <img src="./img/check-rojo.png" alt="invalido"class="card-logo">
-    <h1 class="validation-status invalid-result">INVALIDA</h1>
-=======
     <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
     <br>
     <img src="./img/check-rojo.webp" alt="check-rojo" class="card-logo">
     <br>
     <h2 class="validation-status invalid-result">INVALIDA</h2>
->>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
     `
   } else {
     // si false, imprime un mensaje pde error

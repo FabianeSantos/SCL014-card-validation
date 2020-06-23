@@ -59,11 +59,7 @@ elementos del 1ª array. Los recoje y almacena en nuevo array(impares).*/
 
   //metodo para ocultar numero .
   maskify: creditCardNumber => {
-<<<<<<< HEAD
-
-=======
     // INDICA CANTIDAD DE DIGITOS DISPONIBLES PARA SE MARCADO POR EL # Y ADEMAS SEÑALA CON QUE CARACTER OCULTAR LOS DIGITO
->>>>>>> b07f031529c2912b7ed9e9d578416262954b7bd6
     for (let i = 0; i <= creditCardNumber.length; i++) {
       let numbersFirst = creditCardNumber.slice(0, 12);
       let numberslast = creditCardNumber.slice(-4);
